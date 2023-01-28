@@ -34,7 +34,7 @@ steps:
     SonarCloud: 'Sonarcloud'
     organization: 'ronaldcyu'
     scannerMode: 'MSBuild'
-    projectKey: 'DevProject'
+    projectKey: 'ronaldcyu_devproject'
     projectName: 'DevProject'
 
 - task: MSBuild@1
