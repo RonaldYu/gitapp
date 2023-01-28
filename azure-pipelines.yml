@@ -37,6 +37,10 @@ steps:
     projectKey: 'DevProject'
     projectName: 'DevProject'
 
+- task: MSBuild@1
+  inputs:
+    solution: '**/*.sln'
+
 - task: SonarCloudAnalyze@1
 
 - task: SonarCloudPublish@1
