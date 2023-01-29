@@ -11,11 +11,11 @@ on:
 jobs:
   build:
      name: Azure Pipeline
-     runs-on: ubuntu-latest
+     runs-on: windows-latest
      steps:
      - name: Azure Pipeline Action
        uses: Azure/piplines@v1
        with:
          azure-devops-project-url: https://dev.azure.com/ronaldcyu/DevProject
-         azure-pipeline-name: 'DevProject-ASP.NET Core (.NET Framework)-CI'
+         azure-pipeline-name: 'RonaldYu.gitapp'
          azure-pipeline-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
